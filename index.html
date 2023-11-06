@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome To My World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #800080;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sbahle Ndou</h1>
+        <p>I'm a young woman from Soshanguve. I absolutely love spending quality time with my family. On top of that, I run a small food business where I sell delicious dishes at events and offer catering services. I have a diploma in IT with a focus on Networking, and although I'm new to the developer world, I'm eager to explore it. In my free time, you'll often find me going out with friends and enjoying great company</p>
+    </header>
+
+    <div class="container">
+        <h2>My Skills and Expertise</h2>
+        <p>My skills span across a diverse range, including Salesforce, project management, network design, Linux, Windows server, office 365, SQL, and more..</p>
+
+        <h2>Space of Interest</h2>
+        <p>I aspire to be a housewife, but if that plan does not work, I'll explore a career as a Network Engineer or a Salesforce Architect.</p>
+
+        <h2>Projects I've Worked On</h2>
+        <ul>
+            <li>City of Capetown Patrol application</li>
+            <li>Mervin Chatbot</li>
+        </ul>
+
+        <img src="https://media.licdn.com/dms/image/D4D03AQGlAzoUlARQuw/profile-displayphoto-shrink_400_400/0/1669614894868?e=1704931200&v=beta&t=-YY_GIbS8tRMi9xwiRka_AjBSsd6zjSgFwAv62lO2lI" alt="Your Picture">
+
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
